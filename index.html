@@ -6,28 +6,27 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>foiNNI</title>
+	<!-- icons -->
+	<link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css">
 	<!-- style  -->
 	<link rel="stylesheet" type="text/css" href="/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 	<!-- fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Exo:400,900|Roboto+Slab:100,400|Roboto:100,100i,300,300i,400,400i,500,500i"
 	    rel="stylesheet">
-	<!-- icons -->
-	<link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css">
+
 </head>
 
 <body>
-	<header>
-		<div>
-			<a href="/">
-				<img src="/assets/images/logo.png" alt="" class="logo">
-			</a>
-			<nav>
-				<div class="menu">
+	<header class="header">
+		<div class="container">
+			<div class="header__flex">
+				<a href="/" class="logo header__logo">foiNNI</a>
+				<ul class="menu header__menu">
 					<li>
 						<a href="#">home</a>
 					</li>
-					<li>
+					<li class="active">
 						<a href="#">service</a>
 					</li>
 					<li>
@@ -39,183 +38,200 @@
 					<li>
 						<a href="#">contact us</a>
 					</li>
-				</div>
-			</nav>
+				</ul>
+			</div>
 		</div>
 	</header>
-	<main>
-		<section class="toptext">
-			<h1>We Love
-				<b>FOINNI</b> Polapain</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore manga aliqua.
-				Ut enim ad minim veniam, quis n</p>
+	<main class="main">
+		<section class="welcome">
+			<div class="container">
+				<div class="toptext">
+					<h1>We Love
+						<b>FOINNI</b> Polapain</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore manga
+						aliqua. Ut enim ad minim veniam, quis n</p>
+				</div>
+				<div class="secondtext">
+					<h2>Welcome to
+						<b>FOINNI</b>
+					</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore manga
+						aliqua. Ut enim ad minim veniam, quis nostrud</p>
+				</div>
+			</div>
 		</section>
-		<section class="secondtext">
-			<h1>Welcome to
-				<b>FOINNI</b>
-			</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore manga aliqua.
-				Ut enim ad minim veniam, quis nostrud</p>
-		</section>
-
 		<section class="services">
-			<div>
-				<a href="#" class="development">
-					<i class="fa fa-code" aria-hidden="true"></i>
-					<h2>Development</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sevdent, sunt explicabo. Nemo enim ipsam voluptatem quia</p>
-				</a>
-			</div>
-			<div>
-				<a href="#" class="responsive">
-					<i class="fa fa-television" aria-hidden="true"></i>
-					<h2>Responsive</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sevdent, sunt explicabo. Nemo enim ipsam voluptatem quia</p>
-				</a>
-			</div>
-			<div>
-				<a href="#" class="clean_design">
-					<i class="fa fa-wifi" aria-hidden="true"></i>
-					<h2>Clean Design</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sevdent, sunt explicabo. Nemo enim ipsam voluptatem quia</p>
-				</a>
-			</div>
-			<div>
-				<a href="#" class="graphic_design">
-					<i class="fa fa-eye" aria-hidden="true"></i>
-					<h2>Graphic Design</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sevdent, sunt explicabo. Nemo enim ipsam voluptatem quia</p>
-				</a>
-			</div>
-			<div>
-				<a href="#" class="photography">
-					<i class="fa fa-camera" aria-hidden="true"></i>
-					<h2>Photography</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sevdent, sunt explicabo. Nemo enim ipsam voluptatem quia</p>
-				</a>
-			</div>
-			<div>
-				<a href="#" class="photo_editing">
-					<i class="fa fa-sun-o" aria-hidden="true"></i>
-					<h2>Photo Editing</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sevdent, sunt explicabo. Nemo enim ipsam voluptatem quia</p>
-				</a>
-			</div>
-
-		</section>
-
-		<section>
-			<h3 class="meet_us">Meet US</h3>
-			<div class="pictures_people">
-				<div>
-					<img src="/assets/images/girl.png" alt="">
-					<h4>Abida Foinni</h4>
-					<p>Photographer</p>
-				</div>
-				<div>
-					<img src="/assets/images/boy.png" alt="">
-					<h4>Liker Shohel</h4>
-					<p>Photographer</p>
-				</div>
-				<div>
-					<img src="/assets/images/man.png" alt="">
-					<h4>Mahmud Koli</h4>
-					<p>Graphic Designer</p>
-				</div>
-				<div>
-					<img src="/assets/images/maninhat.png" alt="">
-					<h4>Jolil Shaheb</h4>
-					<p>Web Developer</p>
+			<h2 class="hidden">Services list</h2>
+			<div class="container">
+				<div class="services__box">
+					<article class="services__item">
+						<i class="services__image fa fa-code" aria-hidden="true"></i>
+						<h3 class="services__title">Development</h3>
+						<p class="services__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sevdent, sunt explicabo. Nemo enim ipsam voluptatem quia</p>
+					</article>
+					<article class="services__item services__item_active">
+						<i class="services__image fa fa-television" aria-hidden="true"></i>
+						<h3 class="services__title">Responsive</h3>
+						<p class="services__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sevdent, sunt explicabo. Nemo enim ipsam voluptatem quia</p>
+					</article>
+					<article class="services__item">
+						<i class="services__image fa fa-wifi" aria-hidden="true"></i>
+						<h3 class="services__title">Clean Design</h3>
+						<p class="services__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sevdent, sunt explicabo. Nemo enim ipsam voluptatem quia</p>
+					</article>
+					<article class="services__item">
+						<i class="services__image fa fa-eye" aria-hidden="true"></i>
+						<h3 class="services__title">Graphic Design</h3>
+						<p class="services__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sevdent, sunt explicabo. Nemo enim ipsam voluptatem quia</p>
+					</article>
+					<article class="services__item">
+						<i class="services__image fa fa-camera" aria-hidden="true"></i>
+						<h3 class="services__title">Photography</h3>
+						<p class="services__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sevdent, sunt explicabo. Nemo enim ipsam voluptatem quia</p>
+					</article>
+					<article class="services__item">
+						<i class="services__image fa fa-sun-o" aria-hidden="true"></i>
+						<h3 class="services__title">Photo Editing</h3>
+						<p class="services__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sevdent, sunt explicabo. Nemo enim ipsam voluptatem quia</p>
+					</article>
 				</div>
 			</div>
 		</section>
+		<section class="people">
+			<div class="container">
+				<h2 class="people__heading">Meet US</h2>
+				<div class="people__box">
+					<article class="people__item">
+						<figure class="people__figure">
+							<img src="/assets/images/girl.png" alt="">
+						</figure>
+						<div class="people__details">
+							<h3 class="people__name">Abida Foinni</h3>
+							<p class="people__position">Photographer</p>
+						</div>
+					</article>
 
-		<section>
-			<h3 class="meet_us">Our Latest Works</h3>
-			<nav>
-				<div class="navigation">
-					<ul>
-						<li>
-							<a href="#">all</a>
-						</li>
-						<li>
-							<a href="#">design</a>
-						</li>
-						<li>
-							<a href="#">manipulation</a>
-						</li>
-						<li>
-							<a href="#">photography</a>
-						</li>
-						<li>
-							<a href="#">development</a>
-						</li>
-					</ul>
+					<article class="people__item people__item_active">
+						<figure class="people__figure">
+							<img src="/assets/images/boy.png" alt="">
+						</figure>
+						<div class="people__details">
+							<h3 class="people__name">Liker Shohel</h3>
+							<p class="people__position">Photographer</p>
+						</div>
+					</article>
+
+					<article class="people__item">
+						<figure class="people__figure">
+							<img src="/assets/images/man.png" alt="">
+						</figure>
+						<div class="people__details">
+							<h3 class="people__name">Mahmud Koli</h3>
+							<p class="people__position">Graphic Designer</p>
+						</div>
+					</article>
+
+					<article class="people__item">
+						<figure class="people__figure">
+							<img src="/assets/images/maninhat.png" alt="">
+						</figure>
+						<div class="people__details">
+							<h3 class="people__name">Jolil Shaheb</h3>
+							<p class="people__position">Web Developer</p>
+						</div>
+					</article>
 				</div>
-			</nav>
-
-			<div class="photos">
-
-				<div class="photos_first">
-
-					<div>
-						<img src="/assets/images/wierdo.png" alt="">
-					</div>
-					<div>
-						<img src="/assets/images/tree.png" alt="">
-					</div>
-					<div>
-						<img src="/assets/images/bag.png" alt="">
-					</div>
-				</div>
-
-
-				<div class="photos_second">
-					<div>
-						<img src="/assets/images/blackman.png" alt="">
-					</div>
-					<div>
-						<img src="/assets/images/womanhat.png" alt="">
-					</div>
-					<div>
-						<img src="/assets/images/dancing.png" alt="">
-					</div>
-				</div>
-
 			</div>
-
 		</section>
-
-
 		<section>
-			<div class="bottom">
-				<h5>say hi</h5>
-
-
-				<form class="booking">
-					<div class="form_name">
-
-						<input type="text" name="name" placeholder="Your name">
+			<div class="container">
+				<h2 class="meet_us">Our Latest Works</h2>
+				<nav>
+					<div class="navigation">
+						<ul>
+							<li>
+								<a href="#">all</a>
+							</li>
+							<li>
+								<a href="#">design</a>
+							</li>
+							<li>
+								<a href="#">manipulation</a>
+							</li>
+							<li>
+								<a href="#">photography</a>
+							</li>
+							<li>
+								<a href="#">development</a>
+							</li>
+						</ul>
 					</div>
-					<div class="form_email">
+				</nav>
+				<div class="photos">
 
-						<input type="text" name="email" placeholder="your email">
+					<div class="photos_first">
+
+						<div>
+							<img src="/assets/images/wierdo.png" alt="">
+						</div>
+						<div>
+							<img src="/assets/images/tree.png" alt="">
+						</div>
+						<div>
+							<img src="/assets/images/bag.png" alt="">
+						</div>
 					</div>
-					<div class="form_date">
 
-						<input type="text" name="message" placeholder="Your Message...">
+
+					<div class="photos_second">
+						<div>
+							<img src="/assets/images/blackman.png" alt="">
+						</div>
+						<div>
+							<img src="/assets/images/womanhat.png" alt="">
+						</div>
+						<div>
+							<img src="/assets/images/dancing.png" alt="">
+						</div>
 					</div>
 
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				Our Pricing Plans
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<h2>say hi</h2>
+				<div class="bottom">
+					<form class="booking">
+						<div class="form_name">
 
-					<div class="button_book">
-						<a href="#">Send Message</a>
-					</div>
-				</form>
+							<input type="text" name="name" placeholder="Your name">
+						</div>
+						<div class="form_email">
+
+							<input type="text" name="email" placeholder="your email">
+						</div>
+						<div class="form_date">
+
+							<input type="text" name="message" placeholder="Your Message...">
+						</div>
+
+
+						<div class="button_book">
+							<a href="#">Send Message</a>
+						</div>
+					</form>
+				</div>
 			</div>
 		</section>
 	</main>
-	<footer>
-		<div class="footer_contein">
+	<footer class="footer">
+		<div class="container">
 			<div class="footer_contein_1">
 				<h3>About Us</h3>
 				<br>
@@ -241,9 +257,6 @@
 				<br>
 				<p>Subscribe Our Newsletter</p>
 			</div>
-
-
-
 			<ul class="social_set">
 				<li>
 					<a href="#">
@@ -266,8 +279,6 @@
 				</li>
 			</ul>
 		</div>
-		</div>
-
 	</footer>
 	<script src="/js/main.js"></script>
 </body>
